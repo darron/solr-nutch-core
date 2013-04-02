@@ -1,0 +1,6 @@
+CORE_HOME="$( cd -P "$( dirname "$0" )" && pwd )"
+rm -rf "$CORE_HOME/data/index"
+rm -rf "$CORE_HOME/crawl/crawldb"
+rm -rf "$CORE_HOME/crawl/linkdb"
+rm -rf "$CORE_HOME/crawl/segments"
+echo "Search index deleted."
