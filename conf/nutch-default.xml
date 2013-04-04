@@ -58,7 +58,7 @@
 
 <property>
   <name>http.agent.name</name>
-  <value></value>
+  <value>nutchindexer</value>
   <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
   please set this to a single word uniquely related to your organization.
 
