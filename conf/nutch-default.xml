@@ -333,8 +333,8 @@
 
 <property>
   <name>db.fetch.interval.default</name>
-  <value>2592000</value>
-  <description>The default number of seconds between re-fetches of a page (30 days).
+  <value>604800</value>
+  <description>The default number of seconds between re-fetches of a page (7 days).
   </description>
 </property>
 
@@ -428,7 +428,7 @@
 
 <property>
   <name>db.update.purge.404</name>
-  <value>false</value>
+  <value>true</value>
   <description>If true, updatedb will add purge records with status DB_GONE
   from the CrawlDB.
   </description>
