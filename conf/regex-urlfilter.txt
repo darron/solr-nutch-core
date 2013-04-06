@@ -35,6 +35,9 @@
 # skip URLs with slash-delimited segment that repeats 3+ times, to break loops
 -.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
+# Skip feed and trackback urls on a blog.
+-\/feed|trackback\/$
+
 # Accept the same domain name only.
 +^http://www.put.your.website.here/([a-z0-9\-A-Z]*\/)*
 
