@@ -1,7 +1,7 @@
 CORE_HOME="$( cd -P "$( dirname "$0" )" && pwd )"
 CORE=${CORE_HOME##*/}
 JETTY_USER="jetty"
-JETTY_PORT="80"
+JETTY_PORT="8080"
 
 # Set environment variables
 export JAVA_HOME=/usr/java/default

@@ -1,6 +1,6 @@
 CORE_HOME="$( cd -P "$( dirname "$0" )" && pwd )"
 CORE=${CORE_HOME##*/}
-SOLR_SERVER="http://127.0.0.1:80"
+SOLR_SERVER="http://127.0.0.1:8080"
 
 # Clear out a solr index.
 curl "$SOLR_SERVER/solr/$CORE/update --data '<delete><query>*:*</query></delete>' -H 'Content-type:text/xml; charset=utf-8'"
